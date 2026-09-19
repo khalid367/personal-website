@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The personal website of Khalid Altobi." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231f4e78'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='25' font-weight='bold' fill='white'%3EKA%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Khalid Altobi | Personal Website</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-container">
+        <a class="logo" href="#about"><span>KA</span> Khalid Altobi</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav id="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#talents">Talents</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about-section">
+        <div class="about-text">
+          <p class="small-heading">WELCOME TO MY WEBSITE</p>
+          <h1>Hi, I’m Khalid Altobi.</h1>
+          <p class="intro">I’m a student who enjoys learning about web development and turning simple ideas into websites. I made this page to share a little about myself and what I’m learning.</p>
+          <div class="main-links">
+            <a class="button" href="#talents">My talents</a>
+            <a class="plain-link" href="https://github.com/khalid367" target="_blank" rel="noreferrer">Visit my GitHub</a>
+          </div>
+        </div>
+
+        <div class="quick-facts">
+          <h2>About me</h2>
+          <p>I like learning by building small things and improving them step by step.</p>
+          <ul>
+            <li>Learning HTML, CSS, and JavaScript</li>
+            <li>Interested in technology and design</li>
+            <li>Always ready to learn something new</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="talents">
+        <div class="section-title">
+          <p class="section-number">01</p>
+          <div>
+            <h2>My Talents</h2>
+            <p>These are some skills I’m practicing and improving.</p>
+          </div>
+        </div>
+
+        <div class="talents-list">
+          <article class="talent">
+            <h3>Web Development</h3>
+            <p>I can build simple, responsive pages using HTML and CSS, then add small interactions with JavaScript.</p>
+          </article>
+          <article class="talent">
+            <h3>Creative Thinking</h3>
+            <p>I enjoy trying different layouts, colors, and ideas until a page feels clear and easy to use.</p>
+          </article>
+          <article class="talent">
+            <h3>Problem Solving</h3>
+            <p>When something does not work, I take it one step at a time, test possible fixes, and learn from the result.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-title">
+          <p class="section-number">02</p>
+          <div>
+            <h2>Contact Me</h2>
+            <p>You can reach me by email or see what I’m working on through GitHub.</p>
+          </div>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:khalidaltobi01@gmail.com">
+            <span>Email</span>
+            khalidaltobi01@gmail.com
+          </a>
+          <a href="https://github.com/khalid367" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            github.com/khalid367
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by Khalid Altobi · <span id="year"></span></p>
+      <p>AI helped by checking the code and design.</p>
+    </footer>
+  </body>
+</html>
